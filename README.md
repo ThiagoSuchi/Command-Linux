@@ -75,10 +75,10 @@
 # Alguns símbolos e operadores úteis
 - ; - permite executar vários comandos na mesma linha. Roda todos os comandos, mesmo se ocorrer algum erro.
 - && - permite executar vários comandos na mesma linha. Se o comando anterior não gerar nenhum erro, continua a corrente de comandos, do contrário, para no momento que ocorrer um erro.
-- || - permite executar vários comandos na mesma linha. Ele funciona de maneira oposta ao anterior, ou seja, se ocorrer algum erro no comando anterior, executa o próximo comando, do contrário, para no primeiro comando que NÃO gerar um erro.
-- | - Joga a saída (output) de um comando para a entrada (input) de outro.
-- > - Joga a saída de um comando e redireciona para um arquivo. Apaga o arquivo todo e substitui seu conteúdo.
-- >> - Joga a saída de um comando e redireciona para um arquivo. Não apaga o que estiver no arquivo, apenas adiciona o novo conteúdo na última linha.
+- "||" - permite executar vários comandos na mesma linha. Ele funciona de maneira oposta ao anterior, ou seja, se ocorrer algum erro no comando anterior, executa o próximo comando, do contrário, para no primeiro comando que NÃO gerar um erro.
+- "|" - Joga a saída (output) de um comando para a entrada (input) de outro.
+- ">" - Joga a saída de um comando e redireciona para um arquivo. Apaga o arquivo todo e substitui seu conteúdo.
+- ">>" - Joga a saída de um comando e redireciona para um arquivo. Não apaga o que estiver no arquivo, apenas adiciona o novo conteúdo na última linha.
 - & - Joga para o background. Veja jobs e fg para complementar
 # Background e Foreground
 - jobs - mostra trabalhos em execução
