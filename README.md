@@ -51,6 +51,27 @@
 - uniq: Reporta ou apaga linhas repetidas num arquivo
 - wc: Conta linhas, palavras e mesmo caracteres num arquivo
 
+#  Mais comandos:
+
+- cd - change directory
+- "." - diretório atual
+- ".." - diretório acima
+- "/"- o diretório root ou a separação de diretórios
+- "~" - home (cd sem nada vai para a home)
+- "-" menos - volta para o diretório que anterior
+- tree - mostra a árvore do diretório atual
+- -d - diretórios
+- -a - mostra arquivos ocultos
+- cat - concatena e/ou mostra o conteúdo de um arquivo
+- -n - enumera as linhas
+- tail - lista as últimas linhas do arquivo
+- -NÚMERO - mostra a quantidade de linhas que for adicionado em NÚMERO.
+- -f - continua assistindo o arquivo em busca de novos dados.
+- wc - conta linhas, palavras e caracteres
+- -l - linhas
+- -m - caracteres
+- -w - palavras
+
 # Alguns símbolos e operadores úteis
 - ; - permite executar vários comandos na mesma linha. Roda todos os comandos, mesmo se ocorrer algum erro.
 - && - permite executar vários comandos na mesma linha. Se o comando anterior não gerar nenhum erro, continua a corrente de comandos, do contrário, para no momento que ocorrer um erro.
