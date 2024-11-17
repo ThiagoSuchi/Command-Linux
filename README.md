@@ -50,3 +50,26 @@
 - uncompress: Restaura um arquivo comprimido
 - uniq: Reporta ou apaga linhas repetidas num arquivo
 - wc: Conta linhas, palavras e mesmo caracteres num arquivo
+
+# Alguns símbolos e operadores úteis
+- ; - permite executar vários comandos na mesma linha. Roda todos os comandos, mesmo se ocorrer algum erro.
+- && - permite executar vários comandos na mesma linha. Se o comando anterior não gerar nenhum erro, continua a corrente de comandos, do contrário, para no momento que ocorrer um erro.
+- || - permite executar vários comandos na mesma linha. Ele funciona de maneira oposta ao anterior, ou seja, se ocorrer algum erro no comando anterior, executa o próximo comando, do contrário, para no primeiro comando que NÃO gerar um erro.
+- | - Joga a saída (output) de um comando para a entrada (input) de outro.
+- > - Joga a saída de um comando e redireciona para um arquivo. Apaga o arquivo todo e substitui seu conteúdo.
+- >> - Joga a saída de um comando e redireciona para um arquivo. Não apaga o que estiver no arquivo, apenas adiciona o novo conteúdo na última linha.
+- & - Joga para o background. Veja jobs e fg para complementar
+# Background e Foreground
+- jobs - mostra trabalhos em execução
+- fg %n - leva o que estiver em background para o foreground
+- bg %n - continua um job em background
+- kill %n - mata um job
+# Outros comandos
+- nano - editor de textos
+- file - mostra o tipo do arquivo
+- history - histórico de comandos já digitados
+- pkill - mata processos
+- whoami - mostra seu usuário
+- hostname - mostra o nome do seu computador
+- uname - mostra dados sobre o sistema
+- ps aux - mostra todos os processos rodando no sistema no momento da execução
